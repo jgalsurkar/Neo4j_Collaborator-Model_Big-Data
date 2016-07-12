@@ -7,7 +7,7 @@ or levels. Based on this information, collaborator.net can
 - describe a user’s professional network by identifying other subscribers by a defined criteria
 - identify collaborators with specific skills who are directly or indirectly connected to the current user
 
-Requirement
+###Requirement
 • Build a database to model collaborator.net
 • At least five entities for each entity-type or relations for each relation-type.
 • The database should at least answer the following questions in

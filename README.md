@@ -7,30 +7,30 @@ or levels. Based on this information, collaborator.net can
 - describe a user’s professional network by identifying other subscribers by a defined criteria
 - identify collaborators with specific skills who are directly or indirectly connected to the current user
 
-###Requirement
-• Build a database to model collaborator.net
-• At least five entities for each entity-type or relations for each relation-type.
-• The database should at least answer the following questions in
+### Requirement
+- Build a database to model collaborator.net
+- At least five entities for each entity-type or relations for each relation-type.
+- The database should at least answer the following questions in
   a quick response time: 
-  	• For a user, find all other individuals who share the same
+  	- For a user, find all other individuals who share the same
 	interests or skills as the user, and work in the same or different
 	organization within x miles from the organization that the user
 	works. The individuals should be ranked by the total weight of
 	shared interests (or skills) with the user. In addition, the output
 	should include the organization name, and the list of common
 	interests (or skills).
-	• For a user, find all trusted colleagues-of-colleagues who have one or
+	- For a user, find all trusted colleagues-of-colleagues who have one or
 	more particular interests. The “trusted colleague” is defined as two
 	persons have worked on the same project.
-• A Python command-line client interface for database creation and query
+- A Python command-line client interface for database creation and query
 
 ### Technology Used
-• Neo4J
-• Python
+- Neo4J
+- Python
 
-###Program Arguments:
-• Folder path that contains the files to be loaded into the database
-• Config file which will be used to get the username and password required to bind to the database
+### Program Arguments:
+- Folder path that contains the files to be loaded into the database
+- Config file which will be used to get the username and password required to bind to the database
 
 
 ### Preview of a subset (graph was too big)
